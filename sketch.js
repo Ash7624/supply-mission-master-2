@@ -71,9 +71,6 @@ packageSprite.depth = bin;
 bin.depth = bin.depth + 1;
 
 
-if(packageSprite.isTouching(groundSprite)){
-	packageSprite.isStatic = true;
-}
 
   drawSprites();
  
